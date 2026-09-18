@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080707">
+<title>BLOODY FIRE DOOM</title>
+<meta name="description" content="BLOODY FIRE — мод для DOOM 2 от Rostis23k_Cacodemon. Версии, скриншоты и информация об установке.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scanlines"></div>
+
+<header class="topbar">
+  <a class="brand" href="#home">BLOODY <span>FIRE</span></a>
+  <nav>
+    <a href="#about">О моде</a>
+    <a href="#versions">Версии</a>
+    <a href="#screens">Скриншоты</a>
+    <a href="#trailer">Трейлер</a>
+    <a href="#install">Установка</a>
+        <a href="#story">Сюжет</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="eyebrow">GFD / ГДФ • DOOM 2 MOD</div>
+    <img class="logo" src="assets/bloodfire-logo.jpg" alt="BLOODY FIRE DOOM">
+    <p class="tagline">Кровь. Огонь. Демоны. Новый эпизод начинается.</p>
+    <div class="buttons">
+      <a class="btn primary" href="https://t.me/rosti23k" target="_blank" rel="noopener">СКАЧАТЬ МОД</a>
+      <a class="btn" href="#install">КАК УСТАНОВИТЬ</a>
+    </div>
+    <div class="status"><span></span> BETA DEVELOPMENT • 2026</div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-title"><small>01</small><h2>О МОДЕ</h2></div>
+  <div class="grid two">
+    <article class="panel">
+      <h3>BLOODY FIRE</h3>
+      <p>GFD (ГДФ) — фанатский проект для DOOM 2, который развивается версия за версией. Здесь собраны информация о проекте, обновления и материалы из разработки.</p>
+      <p class="muted">Для запуска требуется DOOM 2.WAD и GZDoom.</p>
+    </article>
+    <article class="panel dark">
+      <div class="big-number">GFD</div>
+      <p>GДФ / GFD</p>
+      <p class="muted">Разработка • бета-версии • новые эпизоды</p>
+    </article>
+  </div>
+<p class="episode-note"><strong>В МОДЕ ЕСТЬ:</strong> EPISODE 2 — YOU'RE FUCKED, DEMONS</p></section>
+
+<section id="versions" class="section">
+  <div class="section-title"><small>02</small><h2>ВЕРСИИ</h2></div>
+  <div class="versions">
+    <article class="version">
+      <div><b>BETA 9.5</b><span>GFD</span></div>
+      <p>Самая новая версия BLOODY FIRE на данный момент.</p>
+      <button onclick="showInfo('BETA 9.5')">САМАЯ НОВАЯ ВЕРСИЯ</button>
+    </article>
+    <article class="version">
+      <div><b>BETA 9.1</b><span>GFD</span></div>
+      <p>Обновлённая бета с новыми материалами.</p>
+      <button onclick="showInfo('BETA 9.1')">ПОДРОБНЕЕ</button>
+    </article>
+    <article class="version">
+      <div><b>BETA 8</b><span>GFD</span></div>
+      <p>Версия с развитием проекта и эпизодов.</p>
+      <button onclick="showInfo('BETA 8')">ПОДРОБНЕЕ</button>
+    </article>
+    <article class="version">
+      <div><b>BETA 7.9</b><span>GFD</span></div>
+      <p>Ранняя бета-версия проекта.</p>
+      <button onclick="showInfo('BETA 7.9')">ПОДРОБНЕЕ</button>
+    </article>
+  </div>
+  <div id="versionInfo" class="notice hidden"></div>
+</section>
+
+
+
+
+<section id="screens" class="section">
+  <div class="section-title"><small>03</small><h2>СКРИНШОТЫ</h2></div>
+  <div class="gallery">
+    <figure>
+      <img src="assets/screenshot-01.jpg" alt="Скриншот BLOODY FIRE">
+      <figcaption>GAMEPLAY • BLOODY FIRE</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/screenshot-02.png" alt="Скриншот BLOODY FIRE 2">
+      <figcaption>GAMEPLAY • BLOODY FIRE</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/screenshot-03.png" alt="Скриншот BLOODY FIRE 3">
+      <figcaption>GAMEPLAY • BLOODY FIRE</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/screenshot-04.png" alt="Скриншот BLOODY FIRE 4">
+      <figcaption>GAMEPLAY • BLOODY FIRE</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/screenshot-05.png" alt="Скриншот BLOODY FIRE 5">
+      <figcaption>GAMEPLAY • BLOODY FIRE</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="trailer" class="section">
+  <div class="section-title"><small>03</small><h2>ТРЕЙЛЕР <span class="old-trailer">ТРЕЙЛЕР НЕ НОВОЙ ВЕРСИИ</span></h2></div>
+  <div class="trailer-wrap">
+    <iframe
+      src="https://www.youtube.com/embed/PI5pbrJ_2Q8"
+      title="GFD (BETA 8) ТРЕЙЛЕР"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<section id="install" class="section">
+  <div class="section-title"><small>04</small><h2>УСТАНОВКА</h2></div><p class="update-notice">МОД ЧАСТО ОБНОВЛЯЕТСЯ, ПОЭТОМУ СЛЕДИТЕ ЗА НИМ!</p>
+  <div class="install">
+    <div class="step"><b>01</b><h3>GZDoom</h3><p>Установи современный порт GZDoom.</p></div>
+    <div class="step"><b>02</b><h3>DOOM 2.WAD</h3><p>Помести оригинальный файл DOOM 2.WAD в доступное место.</p></div>
+    <div class="step"><b>03</b><h3>GFD.WAD</h3><p>Добавь файл мода и запусти его через GZDoom.</p></div>
+  </div>
+  <div class="warning">⚠ Файл DOOM 2.WAD не входит в мод. Используй свою легальную копию игры.<br><br>
+<a class="btn primary" href="https://t.me/rosti23k" target="_blank" rel="noopener">СКАЧАТЬ BLOODY FIRE</a>
+</div>
+</section>
+
+<section class="cta">
+  <h2>КРОВЬ НАЧИНАЕТСЯ ЗДЕСЬ.</h2>
+  <p>Следи за обновлениями BLOODY FIRE и новыми эпизодами.</p>
+  <a class="btn primary" href="#home">НАВЕРХ</a>
+</section>
+
+<section id="alpha" class="section">
+  <div class="section-title"><small>06</small><h2>GFD ALPHA 1</h2></div>
+  <div class="version-card">
+    <h3>GFD ALPHA 1</h3>
+    <p>Самая старая версия мода. В ней всего 2 комнаты и 1 секрет.</p>
+    <p><strong>ЭТОЙ ВЕРСИИ НЕТ В TELEGRAM И Т.Д.</strong></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>BLOODY FIRE • GFD</span>
+  <span>Fan project by Rostis23k_Cacodemon</span>
+</footer>
+
+<script>
+function showInfo(version) {
+  const box = document.getElementById('versionInfo');
+  box.classList.remove('hidden');
+  box.innerHTML = '<b>' + version + '</b><br>Информация о версии может быть дополнена автором проекта. Файлы релиза можно добавить сюда позже.';
+  box.scrollIntoView({behavior:'smooth', block:'center'});
+}
+</script>
+
+<section id="story" class="section story-section">
+  <div class="section-title"><small>06</small><h2>🔥 GFD: BLOOD AND FIRE — СЮЖЕТ</h2></div>
+  <div class="story-content">
+    <h3>🩸 ЭПИЗОД 1 — BLOOD</h3>
+    <p>После загадочного происшествия на Земле появляется неизвестный демонический сигнал. Исследовательский комплекс, изучавший странный артефакт, внезапно теряет связь с внешним миром.</p>
+    <p>Ты отправляешься туда, чтобы выяснить, что произошло.</p>
+    <p>Но комплекс уже захвачен.</p>
+    <p>Демоны прорвались через экспериментальный портал и превратили исследовательский центр в настоящий ад. Среди разрушенных лабораторий ты находишь записи учёных и узнаёшь правду: они обнаружили древний артефакт, получивший название <b>Кровавое ядро</b>.</p>
+    <p>Этот артефакт способен открывать порталы между мирами.</p>
+    <p>И демоны собираются использовать его, чтобы открыть путь на Землю.</p>
+    <p>Твоя задача проста:</p><p class="story-highlight">ПРОРВАТЬСЯ ЧЕРЕЗ ОРДЫ ДЕМОНОВ, НАЙТИ КРОВАВОЕ ЯДРО И ОСТАНОВИТЬ ВТОРЖЕНИЕ.</p>
+    <p>Но уничтожение ядра приводит к неожиданному результату...</p><p class="story-highlight">Портал не закрывается.<br>Он становится ещё больше.</p>
+    <h3>🔥 ЭПИЗОД 2 — FIRE</h3>
+    <p>Портал поглощает тебя и переносит в неизвестный демонический мир.</p><p>Здесь нет спасения.</p>
+    <p>Древние крепости, огненные территории, разрушенные храмы и армии демонов — всё это лишь начало.</p>
+    <p>Ты понимаешь, что вторжение на Землю было частью гораздо большего плана.</p>
+    <p>Где-то в глубине этого мира находится тот, кто стоит за всем происходящим.</p><p>И теперь путь только один:</p><p class="story-highlight">ИДТИ ВПЕРЁД.</p>
+    <h3>💀 ПРОДОЛЖЕНИЕ</h3>
+    <p>Второй эпизод находится в разработке.</p><p>На данный момент доступны 2 уровня второго эпизода.</p>
+    <p>История GFD: Blood and Fire ещё не закончена...</p><p class="story-highlight">АД ТОЛЬКО НАЧИНАЕТСЯ.</p>
+  </div>
+</section>
+</body>
+</html>
